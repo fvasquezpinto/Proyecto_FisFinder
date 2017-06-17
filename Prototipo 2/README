@@ -1,0 +1,37 @@
+Hola, sigue estas instrucciones para correr el proyecto:
+
+Importante: En caso de faltar algún componente, puedes descargar el archivo FisFinder.zip que contiene la versión completa del Sistema.
+
+Parte I: Instalación
+
+1) Debes descargar y descomprimir "Modulos Necesarios.zip" del proyecto en GitHub
+2) Abrir un terminal
+3) En el terminal dirigite a la carpeta donde descargaste lo anterior
+4) En el terminal ingresa a la carpeta google-1.06 (cd google-1.06)
+5) Una vez dentro de la carpeta ejecuta el siguiente comando: python setup.py install
+6) Si lo anterior está correcto, dirigete un directorio atrás en el terminal (cd ..)
+7) En el terminal ingresa a la carpeta python-readability-master (cd python-readability-master)
+8) Una vez dentro de la carpeta ejecuta el siguiente comando: python setup.py install
+9) Una vez instalados los dos componentes anteriores se procederá a instalar más módulos mediante el instalador pip (se requiere pip)
+10) Si alguno de estos módulos ya lo tienes instalados (exactamente los mismos, ignora el paso y ve al siguiente)
+11) En el terminal ejecutar el siguiente comando: pip install flask
+12) Si lo anterior está correcto, continuar con el siguiente paso. En caso contrario volver a intentar el paso anterior
+13) En el terminal ejecutar el siguiente comando: pip install beautifulsoup4
+14) Si lo anterior está correcto, continuar con el siguiente paso. En caso contrario volver a intentar el paso anterior
+15) En el terminal ejecutar el siguiente comando: pip install requests
+16) Si lo anterior está correcto, continuar con el siguiente paso. En caso contrario volver a intentar el paso anterior
+17) En el terminal ejecutar el siguiente comando: pip install PyMySQL
+
+18) El sistema utiliza una base de datos MySQL. En caso de no contar con un server starter, descargar e instalar WAMP (preferentemente).
+    En la carpeta Prototipo 2/FisFinder/Modelo se halla el archivo .sql (FisFinder.sql)
+
+19) Descargar código fuente de GitHub (carpeta Prototipo 2)
+
+Parte II: Ejecución
+
+1) Iniciar MySQL web server desde el gestor de servidores localhost (WAMP, si fuere)
+2) Para levantar el host web se debe ejecutar, en un terminal, el archivo server.py el cual está ubicado en Prototipo 2/FisFinder/Vista
+3) Abrir la dirección http://127.0.0.1:5000/ en Chrome u otro navegador.
+3 ALT) En el terminal clickear el URL http://127.0.0.1:5000/
+4) Navegar a través del sitio. Para ingresar utilizar la credencial
+    User: admin     Password: 1234
